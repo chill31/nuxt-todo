@@ -77,7 +77,7 @@ function toggleDone(index) {
           </div>
           <h3 class="text-[1.5rem] font-semibold overflow-hidden max-w-[80%]"
             :class="todo.done ? 'dark:text-slate-400 text-slate-600' : ''">{{ todo.title }}</h3>
-          <p class="[line-break:anywhere] h-[15ch] overflow-y-scroll text-sm"
+          <p class="[line-break:anywhere] h-[15ch] overflow-y-scroll text-sm whitespace-pre"
             :class="todo.done ? 'dark:text-slate-400 text-slate-600' : ''">{{ todo.content }}</p>
 
           <div
